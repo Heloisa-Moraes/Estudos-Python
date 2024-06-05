@@ -6,7 +6,7 @@ colors = ['gold', 'yellowgreen', 'lightcoral', 'lightskyblue']
 explode = (0.1, 0, 0, 0) # "Explode" a primeira fatia (Maçãs)
 
 plt.pie(sizes,explode=explode, labels=labes, colors=colors,
-        autopct='%1.1f%', shadow=True, startangle=140)
+        autopct='%1.1f%%', shadow=True, startangle=140)
 
 plt.title('Distribuição de Frutas')
 
